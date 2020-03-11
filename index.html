@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#00BCD4">
+    <meta name="viewport" content="width=device-width">
+    <meta name="copyright" content="mbah nunung Online - All Rights Reserved">
+    <meta property="og:image" content="https://c1.staticflickr.com/5/4881/31690491527_46009f8c30_h.jpg" />
+    <link id="favicon" rel="shortcut icon" type="image/png" href="https://cdn1.bintangtenggarafm.com/images/favicon.png" />
+    <link rel="apple-touch-icon" href="https://cdn1.mbahnunungonline.net/images/iOS-76x76.png">
+    <link rel="android-touch-icon" href="https://cdn1.mbahnunungonline.net/images/Android-76x76.png" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900' rel='stylesheet' type='text/css'>
+    <link href="https://cdn1.radiobintangtenggara.com/css/rbt.css?build=13150" rel="stylesheet" type="text/css">
+    <link href="https://cdn1.radiobintangtenggara.com/css/jquery.rbt.min.css?build=13150" rel="stylesheet" type="text/css">
+    <title>Radio Bintang Tenggara - Live Streaming</title>
+
+</head>
+
+<body>
+    <!--[if lt IE 10]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <header>
+        
+        
+    </header>
+
+    <div id="content">
+        <div class="row clearfix">
+            <div class="card">
+                <div class="card-content">
+                <img border="0" src="https://4.bp.blogspot.com/-DKJ3LUbJh2U/W79NvNmJEUI/AAAAAAAAJvE/1YHss7E3xXc00G2Xe2VhQw2nPE99MSNygCLcBGAs/s1600/f69c7be1aa497aaa87f40d2306c4c355.png" width="100%" height="100%">
+                    
+                </div>
+            </div>
+         
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
+    <script src='https://warningfm.github.io/v3/js/jquery.nng.min.js?build=13150'></script>
+    <script>
+        // This script will call Kast player
+        // please add your options (host, port, version, etc..)
+        // read the docs for more available options
+        $.kast({
+        host: 'live.sg.radiobintangtenggara.com',
+        port: 9560,
+        protocol: 'http',
+        version: 2, // SHOUTcast Version @integer
+        sid: 1, // Server stream ID (If you have multiple SHOUTcast V2 stations) @integer
+        statsPath: 'stats', // Path to stats @string
+        directStreamURL: 'https://rbtfm.herokuapp.com/?q=http://live.sg.radiobintangtenggara.com:9560/rbtfm',
+        autoUpdate: true, // Autoupdate (Boolean or string: 'all') (current info / Played info / album artwork) @boolean @string
+        autoPlay: true, // Autoplay radio on load @boolean
+        betaProxies: true, // Use Beta Proxies to fetch SHOUTcast metadata
+        mobileCare: false, // low (aka true), medium, high, very high, ultra @boolean @array
+        statusBar: false,
+        minimizeMaximize: false,
+        startTemplate: 'maximized',
+        irrelevantWords: ['false'],
+        defaultArtwork: ['https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/e9/38/24/e938243e-d983-db13-803e-f165e3a2057f/source/512x512bb.jpg'],
+        language: {
+            offlineText: 'Temporarily Offline', // On offline: status bar text @string
+            playedText: '<font face="Georgia" color="blue">Wes Mari Diputer :</font>', // Played title (player bottom) @string
+            unknownTrackText: 'Informasi & Solusi - c^o^d^e^l^i^s^t^.^c^c', // Set unknown track text when error
+            unknownArtistText: 'Radio Bintang Tenggara' // Set unknown artist text when error
+        }, // Set text (Multi language support) @object
+        position: 'right', // Player position (Bottom right or left) @string
+        container: 'body', // Player container element, class or ID. everything other than 'body' isn't fixed @string
+        overHTTPS: true,
+        colors: 'dynamic',
+        ui: 'colored', // Transparent or colored and kast-nowplaying @string
+        theme: 'dynamic', // Dark, light or dynamic: based on the current album artwork @string
+        played: true
+    })
+    </script>    
+    </div>
+    </div>
+</body>
+</html>
