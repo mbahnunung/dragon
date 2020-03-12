@@ -25,7 +25,7 @@ $('#top-1').click(function () {
         version: 2,
         sid: 1,
         directStreamURL: 'https://castprox.herokuapp.com/http://192.111.140.11:8004/mobile',
-        defaultArtwork: ['https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/e9/38/24/e938243e-d983-db13-803e-f165e3a2057f/source/512x512bb.jpg'],
+        defaultArtwork: ['no-cover-large.png'],
         colors: 'dynamic',
         theme: 'dynamic',
         mobileCare: false
@@ -41,7 +41,7 @@ $('#top-2').click(function () {
         version: 2,
         sid: 1,
         directStreamURL: 'https://castprox.herokuapp.com/http://87.98.216.129:4638/;',
-        defaultArtwork: ['https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/e9/38/24/e938243e-d983-db13-803e-f165e3a2057f/source/512x512bb.jpg'],
+        defaultArtwork: ['no-cover-large.png'],
         colors: 'dynamic',
         theme: 'dynamic',
         ui: 'colored',
@@ -69,7 +69,7 @@ $('#top-4').click(function () {
         port: 9560,
         version: 2,
         directStreamURL: 'https://castprox.herokuapp.com/http://live.sg.radiobintangtenggara.com:9560/rbtfm',
-        defaultArtwork: ['images/video-games-music.jpg', 'images/video-games-music-optional-64x64.jpg'], // 64x64 image is optional, but recommended
+        defaultArtwork: ['no-cover-large.png', 'images/video-games-music-optional-64x64.jpg'], // 64x64 image is optional, but recommended
         colors: 'dynamic',
         theme: 'dark',
         autoPlay: true,
