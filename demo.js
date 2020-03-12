@@ -25,7 +25,7 @@ $('#top-1').click(function () {
         version: 2,
         sid: 1,
         directStreamURL: 'https://castprox.herokuapp.com/http://live.sg.radiobintangtenggara.com:9560/rbtfm',
-        defaultArtwork: ['https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/e9/38/24/e938243e-d983-db13-803e-f165e3a2057f/source/512x512bb.jpg'],
+        defaultArtwork: ['no-cover-large.png'],
         colors: 'dynamic',
         theme: 'dynamic',
         mobileCare: false
@@ -41,7 +41,7 @@ $('#top-2').click(function () {
         version: 2,
         sid: 1,
         directStreamURL: 'https://castprox.herokuapp.com/http://live.radiobintangtenggara.com:8000/mbahnunungonline',
-        defaultArtwork: ['https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/e9/38/24/e938243e-d983-db13-803e-f165e3a2057f/source/512x512bb.jpg'],
+        defaultArtwork: ['no-cover-large.png'],
         colors: 'dynamic',
         theme: 'dynamic',
         ui: 'colored',
