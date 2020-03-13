@@ -131,8 +131,8 @@ $('#top-8').click(function () {
         port: 9720,
         colors: 'dynamic',
         theme: 'dynamic',
-        startTemplate: 'minimized',
-        statusBar: false
+        startTemplate: 'maximized',
+        statusBar: true
     })
 })
 
