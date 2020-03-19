@@ -57,6 +57,7 @@ $('#top-3').click(function () {
         host: 'stream3.radiocenter.si',
         port: 8068,
         directStreamURL: 'https://castprox.herokuapp.com/http://stream3.radiocenter.si:8068/center',
+        defaultArtwork: ['no-cover-large.png'],
         colors: 'dynamic',
         theme: 'dynamic'
     })
@@ -83,6 +84,7 @@ $('#top-5').click(function () {
         host: 'live.citrafmradio.com',
         port: 9882,
         artwork: true,
+        defaultArtwork: ['no-cover-large.png'],
         colors: 'dynamic',
         theme: 'dynamic',
         //ui: 'transparent',
@@ -97,6 +99,7 @@ $('#top-6').click(function () {
         port: 8010,
         version: 2,
         protocol: 'http',
+        defaultArtwork: ['no-cover-large.png'],
         colors: {
             primary: 'blue grey'
             //accent: 'yellow' // Because accent is yellow by default
@@ -114,6 +117,7 @@ $('#top-7').click(function () {
         version: 2,
         sid: 1,
         protocol: 'http',
+        defaultArtwork: ['no-cover-large.png'],
         colors: {
             primary: 'grey',
             accent: 'light blue'
@@ -129,6 +133,7 @@ $('#top-8').click(function () {
     $.kast({
         host: 'live.sg.mcfmbwi.com',
         port: 9720,
+        defaultArtwork: ['no-cover-large.png'],
         colors: 'dynamic',
         theme: 'dynamic',
         startTemplate: 'maximized',
