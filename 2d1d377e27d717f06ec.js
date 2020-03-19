@@ -156,7 +156,7 @@ $('#top-9').click(function () {
 })
 
 // Handle: Example 7 click function
-$('#demo-7').click(function () {
+$('#top-10').click(function () {
     $.kast({
         host: '91.250.77.9',
         port: 30710,
@@ -172,7 +172,7 @@ $('#demo-7').click(function () {
 })
 
 // Handle: Example 8 click function
-$('#demo-8').click(function () {
+$('#top-11').click(function () {
     $.kast({
         host: '204.12.193.98',
         port: 8415,
@@ -184,7 +184,7 @@ $('#demo-8').click(function () {
 })
 
 // Handle: Example 9 click function
-$('#demo-9').click(function () {
+$('#top-12').click(function () {
     $.kast({
         host: 'diradio.biru.co.id',
         port: 8910,
