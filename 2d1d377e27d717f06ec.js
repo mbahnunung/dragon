@@ -122,8 +122,8 @@ $('#top-7').click(function () {
             primary: 'grey',
             accent: 'light blue'
         },
-        theme: 'light',
-        ui: 'transparent',
+        theme: 'dynamic',
+        ui: 'colored',
         played: false
     })
 })
