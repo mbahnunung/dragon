@@ -143,9 +143,10 @@ $('#top-8').click(function () {
 // Handle: Example 9 click function
 $('#top-9').click(function () {
     $.kast({
-        host: 'diradio.biru.co.id',
-        port: 8910,
+        host: 'cast.ariegm.com',
+        port: 8880,
         version: 2,
+        protocol: 'https',
         colors: {
             primary: 'blue grey'
             //accent: 'yellow' // Because accent is yellow by default
