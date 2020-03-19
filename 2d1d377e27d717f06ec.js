@@ -19,12 +19,12 @@ $('.card-content').click(function () {
 // Handle: Example 1 click function
 $('#top-1').click(function () {
     $.kast({
-        host: '192.111.140.11',
-        port: 8004,
+        host: 'live.prodjradio.net',
+        port: 8000,
         protocol: 'http',
         version: 2,
         sid: 1,
-        directStreamURL: 'https://castprox.herokuapp.com/http://192.111.140.11:8004/mobile',
+        directStreamURL: 'https://live.prodjradio.net:8065/stream',
         defaultArtwork: ['no-cover-large.png'],
         colors: 'dynamic',
         theme: 'dynamic',
@@ -176,9 +176,10 @@ $('#top-10').click(function () {
 // Handle: Example 11 click function
 $('#top-11').click(function () {
     $.kast({
-        host: 'cast.ariegm.com',
-        port: 8880,
-        protocol: 'https',
+        host: '192.111.140.11',
+        port: 8004,
+        sid: 2,
+        protocol: 'http',
         colors: 'dynamic',
         theme: 'dynamic',
         startTemplate: 'minimized',
