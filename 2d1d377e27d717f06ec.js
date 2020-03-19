@@ -140,7 +140,7 @@ $('#top-8').click(function () {
     })
 })
 
-// Handle: Example 6 click function
+// Handle: Example 9 click function
 $('#top-9').click(function () {
     $.kast({
         host: 'diradio.biru.co.id',
@@ -155,12 +155,13 @@ $('#top-9').click(function () {
     })
 })
 
-// Handle: Example 7 click function
+// Handle: Example 10 click function
 $('#top-10').click(function () {
     $.kast({
-        host: '91.250.77.9',
-        port: 30710,
-        version: 1,
+        host: '173.254.198.39',
+        port: 7777,
+        version: 2,
+        sid: 2,
         colors: {
             primary: 'grey',
             accent: 'light blue'
@@ -171,11 +172,12 @@ $('#top-10').click(function () {
     })
 })
 
-// Handle: Example 8 click function
+// Handle: Example 11 click function
 $('#top-11').click(function () {
     $.kast({
-        host: '204.12.193.98',
-        port: 8415,
+        host: 'cast.ariegm.com',
+        port: 8880,
+        protocol: 'https',
         colors: 'dynamic',
         theme: 'dynamic',
         startTemplate: 'minimized',
@@ -183,7 +185,7 @@ $('#top-11').click(function () {
     })
 })
 
-// Handle: Example 9 click function
+// Handle: Example 12 click function
 $('#top-12').click(function () {
     $.kast({
         host: 'diradio.biru.co.id',
