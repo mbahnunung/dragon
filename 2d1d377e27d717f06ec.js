@@ -74,7 +74,7 @@ $('#top-4').click(function () {
         colors: 'dynamic',
         theme: 'dark',
         autoPlay: true,
-        played: false
+        played: true
     })
 })
 
