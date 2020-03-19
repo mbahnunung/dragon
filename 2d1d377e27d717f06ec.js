@@ -140,15 +140,57 @@ $('#top-8').click(function () {
     })
 })
 
-// Handle: Example 9 click function
+// Handle: Example 6 click function
 $('#top-9').click(function () {
+    $.kast({
+        host: 'diradio.biru.co.id',
+        port: 8910,
+        version: 2,
+        colors: {
+            primary: 'blue grey'
+            //accent: 'yellow' // Because accent is yellow by default
+        },
+        theme: 'dynamic',
+        continuous: false
+    })
+})
+
+// Handle: Example 7 click function
+$('#demo-7').click(function () {
+    $.kast({
+        host: '91.250.77.9',
+        port: 30710,
+        version: 1,
+        colors: {
+            primary: 'grey',
+            accent: 'light blue'
+        },
+        theme: 'light',
+        ui: 'transparent',
+        played: false
+    })
+})
+
+// Handle: Example 8 click function
+$('#demo-8').click(function () {
+    $.kast({
+        host: '204.12.193.98',
+        port: 8415,
+        colors: 'dynamic',
+        theme: 'dynamic',
+        startTemplate: 'minimized',
+        statusBar: false
+    })
+})
+
+// Handle: Example 9 click function
+$('#demo-9').click(function () {
     $.kast({
         host: 'diradio.biru.co.id',
         port: 8910,
         colors: 'dynamic',
         theme: 'dynamic',
         mobileCare: ['ultra', '4069px'], // the pixel number here is to force MobileCare to run on Desktops and Tablets too (Up to 4K Screens)
-        autoPlay: true,
         continuous: false
     })
 })
