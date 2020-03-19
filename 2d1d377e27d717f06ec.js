@@ -133,7 +133,6 @@ $('#top-8').click(function () {
     $.kast({
         host: 'live.sg.mcfmbwi.com',
         port: 9720,
-        defaultArtwork: ['no-cover-large.png'],
         colors: 'dynamic',
         theme: 'dynamic',
         startTemplate: 'maximized',
@@ -153,3 +152,4 @@ $('#top-9').click(function () {
         continuous: false
     })
 })
+
