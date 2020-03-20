@@ -66,10 +66,10 @@ $('#top-3').click(function () {
 // Handle: Example 4 click function
 $('#top-4').click(function () {
     $.kast({
-        host: 'live.sg.radiobintangtenggara.com',
-        port: 9560,
+        host: 'live.radiobintangtenggara.com',
+        port: 8000,
         version: 2,
-        directStreamURL: 'https://rbtfm.herokuapp.com/?q=http://live.sg.radiobintangtenggara.com:9560/rbtfm',
+        directStreamURL: 'https://rbtfm.herokuapp.com/?q=http://live.radiobintangtenggara.com:8000/mbahnunungonline',
         defaultArtwork: ['https://i.imgur.com/0X6Jnwe.png', 'images/video-games-music-optional-64x64.jpg'], // 64x64 image is optional, but recommended
         colors: 'dynamic',
         theme: 'dark',
