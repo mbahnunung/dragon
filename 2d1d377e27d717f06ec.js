@@ -117,7 +117,7 @@ $('#top-7').click(function () {
         version: 2,
         sid: 1,
         protocol: 'http',
-        directStreamURL: 'https://rbtfm.herokuapp.com/?q=http://206.190.130.182:8142/stream'
+        directStreamURL: 'https://rbtfm.herokuapp.com/?q=http://206.190.130.182:8142/stream',
         defaultArtwork: ['no-cover-large.png'],
         colors: {
             primary: 'grey',
