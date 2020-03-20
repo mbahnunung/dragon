@@ -70,7 +70,7 @@ $('#top-4').click(function () {
         port: 9560,
         version: 2,
         directStreamURL: 'https://rbtfm.herokuapp.com/?q=http://live.sg.radiobintangtenggara.com:9560/rbtfm',
-        defaultArtwork: ['no-cover-large.png', 'images/video-games-music-optional-64x64.jpg'], // 64x64 image is optional, but recommended
+        defaultArtwork: ['https://i.imgur.com/0X6Jnwe.png', 'images/video-games-music-optional-64x64.jpg'], // 64x64 image is optional, but recommended
         colors: 'dynamic',
         theme: 'dark',
         autoPlay: true,
@@ -87,7 +87,7 @@ $('#top-5').click(function () {
         defaultArtwork: ['no-cover-large.png'],
         colors: 'dynamic',
         theme: 'dynamic',
-        //ui: 'transparent',
+        ui: 'transparent',
         autoPlay: true
     })
 })
@@ -99,7 +99,7 @@ $('#top-6').click(function () {
         port: 8010,
         version: 2,
         protocol: 'http',
-        defaultArtwork: ['no-cover-large.png'],
+        defaultArtwork: ['https://i.imgur.com/oDvLz7u.jpg'],
         colors: {
             primary: 'blue grey'
             //accent: 'yellow' // Because accent is yellow by default
