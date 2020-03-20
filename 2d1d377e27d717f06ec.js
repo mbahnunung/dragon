@@ -87,7 +87,7 @@ $('#top-5').click(function () {
         defaultArtwork: ['no-cover-large.png'],
         colors: 'dynamic',
         theme: 'dynamic',
-        ui: 'transparent',
+        //ui: 'transparent',
         autoPlay: true
     })
 })
