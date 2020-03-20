@@ -56,7 +56,7 @@ $('#top-3').click(function () {
     $.kast({
         host: 'stream3.radiocenter.si',
         port: 8068,
-        directStreamURL: 'https://castprox.herokuapp.com/http://stream3.radiocenter.si:8068/center',
+        directStreamURL: 'https://rbtfm.herokuapp.com/?q=http://stream3.radiocenter.si:8068/center',
         defaultArtwork: ['no-cover-large.png'],
         colors: 'dynamic',
         theme: 'dynamic'
@@ -69,7 +69,7 @@ $('#top-4').click(function () {
         host: 'live.sg.radiobintangtenggara.com',
         port: 9560,
         version: 2,
-        directStreamURL: 'https://castprox.herokuapp.com/http://live.sg.radiobintangtenggara.com:9560/rbtfm',
+        directStreamURL: 'https://rbtfm.herokuapp.com/?q=http://live.sg.radiobintangtenggara.com:9560/rbtfm',
         defaultArtwork: ['no-cover-large.png', 'images/video-games-music-optional-64x64.jpg'], // 64x64 image is optional, but recommended
         colors: 'dynamic',
         theme: 'dark',
