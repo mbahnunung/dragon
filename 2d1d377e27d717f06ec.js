@@ -57,7 +57,7 @@ $('#top-3').click(function () {
         host: 'stream3.radiocenter.si',
         port: 8068,
         directStreamURL: 'https://rbtfm.herokuapp.com/?q=http://stream3.radiocenter.si:8068/center',
-        defaultArtwork: ['no-cover-large.png'],
+        defaultArtwork: ['https://i.imgur.com/oDvLz7u.jpg'],
         colors: 'dynamic',
         theme: 'dynamic'
     })
