@@ -26,6 +26,7 @@ $('#top-1').click(function () {
         sid: 1,
         directStreamURL: 'https://live.prodjradio.net:8065/stream',
         defaultArtwork: ['no-cover-large.png'],
+        irrelevantWords: false,
         colors: 'dynamic',
         theme: 'dynamic',
         mobileCare: false
@@ -42,6 +43,7 @@ $('#top-2').click(function () {
         sid: 1,
         directStreamURL: 'https://castprox.herokuapp.com/http://87.98.216.129:4638/;',
         defaultArtwork: ['no-cover-large.png'],
+        irrelevantWords: false,
         colors: 'dynamic',
         theme: 'dynamic',
         ui: 'colored',
@@ -58,6 +60,7 @@ $('#top-3').click(function () {
         port: 8068,
         directStreamURL: 'https://rbtfm.herokuapp.com/?q=http://stream3.radiocenter.si:8068/center',
         defaultArtwork: ['https://i.imgur.com/oDvLz7u.jpg'],
+        irrelevantWords: false,
         colors: 'dynamic',
         theme: 'dynamic'
     })
@@ -70,7 +73,8 @@ $('#top-4').click(function () {
         port: 8000,
         version: 2,
         directStreamURL: 'https://rbtfm.herokuapp.com/?q=http://live.radiobintangtenggara.com:8000/mbahnunungonline',
-        defaultArtwork: ['https://i.imgur.com/0X6Jnwe.png', 'images/video-games-music-optional-64x64.jpg'], // 64x64 image is optional, but recommended
+        defaultArtwork: ['https://i.imgur.com/0X6Jnwe.png'],
+        irrelevantWords: false,
         colors: 'dynamic',
         theme: 'dark',
         autoPlay: true,
@@ -85,6 +89,7 @@ $('#top-5').click(function () {
         port: 9882,
         artwork: true,
         defaultArtwork: ['no-cover-large.png'],
+        irrelevantWords: false,
         colors: 'dynamic',
         theme: 'dynamic',
         //ui: 'transparent',
@@ -100,6 +105,7 @@ $('#top-6').click(function () {
         version: 2,
         protocol: 'http',
         defaultArtwork: ['https://i.imgur.com/oDvLz7u.jpg'],
+        irrelevantWords: false,
         colors: {
             primary: 'blue grey'
             //accent: 'yellow' // Because accent is yellow by default
@@ -119,6 +125,7 @@ $('#top-7').click(function () {
         protocol: 'http',
         directStreamURL: 'https://rbtfm.herokuapp.com/?q=http://206.190.130.182:8142/stream',
         defaultArtwork: ['no-cover-large.png'],
+        irrelevantWords: false,
         colors: {
             primary: 'grey',
             accent: 'light blue'
@@ -134,6 +141,7 @@ $('#top-8').click(function () {
     $.kast({
         host: 'live.sg.mcfmbwi.com',
         port: 9720,
+        irrelevantWords: false,
         colors: 'dynamic',
         theme: 'dynamic',
         startTemplate: 'maximized',
@@ -148,6 +156,7 @@ $('#top-9').click(function () {
         port: 8880,
         version: 2,
         protocol: 'https',
+        irrelevantWords: false,
         colors: {
             primary: 'blue grey'
             //accent: 'yellow' // Because accent is yellow by default
@@ -164,6 +173,7 @@ $('#top-10').click(function () {
         port: 7777,
         version: 2,
         sid: 2,
+        irrelevantWords: false,
         colors: {
             primary: 'grey',
             accent: 'light blue'
@@ -181,6 +191,7 @@ $('#top-11').click(function () {
         port: 8004,
         sid: 2,
         protocol: 'http',
+        irrelevantWords: false,
         colors: 'dynamic',
         theme: 'dynamic',
         startTemplate: 'minimized',
