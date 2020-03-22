@@ -69,10 +69,10 @@ $('#top-3').click(function () {
 // Handle: Example 4 click function
 $('#top-4').click(function () {
     $.kast({
-        host: 'live.radiobintangtenggara.com',
-        port: 8000,
+        host: 'live.sg.radiobintangtenggara.com',
+        port: 9560,
         version: 2,
-        directStreamURL: 'https://rbtfm.herokuapp.com/?q=http://live.radiobintangtenggara.com:8000/mbahnunungonline',
+        directStreamURL: 'https://rbtfm.herokuapp.com/?q=http://live.sg.radiobintangtenggara.com:9560/rbt',
         defaultArtwork: ['https://i.imgur.com/0X6Jnwe.png'],
         irrelevantWords: false,
         colors: 'dynamic',
@@ -104,6 +104,7 @@ $('#top-6').click(function () {
         port: 8010,
         version: 2,
         protocol: 'http',
+        directStreamURL: 'https://radiofox.herokuapp.com/?q=http://217.120.175.194:8010/2',
         defaultArtwork: ['https://i.imgur.com/oDvLz7u.jpg'],
         irrelevantWords: false,
         colors: {
@@ -123,13 +124,10 @@ $('#top-7').click(function () {
         version: 2,
         sid: 1,
         protocol: 'http',
-        directStreamURL: 'https://rbtfm.herokuapp.com/?q=http://206.190.130.182:8142/stream',
+        directStreamURL: 'https://ihon.herokuapp.com/http://206.190.130.182:8142/stream',
         defaultArtwork: ['no-cover-large.png'],
         irrelevantWords: false,
-        colors: {
-            primary: 'grey',
-            accent: 'light blue'
-        },
+        colors: 'dynamic',
         theme: 'dynamic',
         ui: 'colored',
         played: false
@@ -173,6 +171,7 @@ $('#top-10').click(function () {
         port: 7777,
         version: 2,
         sid: 2,
+        directStreamURL: 'https://rbtfm.herokuapp.com/?q=http://173.254.198.39:7777/lipsaudio_aac',
         irrelevantWords: false,
         colors: {
             primary: 'grey',
