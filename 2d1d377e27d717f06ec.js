@@ -88,7 +88,7 @@ $('#top-5').click(function () {
         host: 'live.citrafmradio.com',
         port: 9882,
         artwork: true,
-        defaultArtwork: ['no-cover-large.png'],
+        defaultArtwork: ['https://warningfm.github.io/v3/images/no-cover-large.png'],
         irrelevantWords: false,
         colors: 'dynamic',
         theme: 'dynamic',
