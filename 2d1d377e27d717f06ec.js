@@ -59,7 +59,7 @@ $('#top-3').click(function () {
         host: 'stream3.radiocenter.si',
         port: 8068,
         directStreamURL: 'https://rbtfm.herokuapp.com/?q=http://stream3.radiocenter.si:8068/center',
-        defaultArtwork: ['https://i.imgur.com/oDvLz7u.jpg'],
+        defaultArtwork: ['https://warningfm.github.io/v3/images/1d205655ef29e14a8255c89fe2383a41.jpg'],
         irrelevantWords: false,
         colors: 'dynamic',
         theme: 'dynamic'
@@ -125,7 +125,7 @@ $('#top-7').click(function () {
         sid: 1,
         protocol: 'http',
         directStreamURL: 'https://ihon.herokuapp.com/http://206.190.130.182:8142/stream',
-        defaultArtwork: ['no-cover-large.png'],
+        defaultArtwork: ['https://warningfm.github.io/v3/images/1d205655ef29e14a8255c89fe2383a41.jpg'],
         irrelevantWords: false,
         colors: 'dynamic',
         theme: 'dynamic',
