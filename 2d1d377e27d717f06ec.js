@@ -130,7 +130,7 @@ $('#top-7').click(function () {
         colors: 'dynamic',
         theme: 'dynamic',
         ui: 'colored',
-        played: false
+        played: true
     })
 })
 
