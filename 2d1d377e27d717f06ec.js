@@ -41,7 +41,7 @@ $('#top-2').click(function () {
         protocol: 'http',
         version: 2,
         sid: 1,
-        directStreamURL: 'https://castprox.herokuapp.com/http://87.98.216.129:4638/;',
+        directStreamURL: 'https://radiofox.herokuapp.com/?q=http://87.98.216.129:4638/;',
         defaultArtwork: ['no-cover-large.png'],
         irrelevantWords: false,
         colors: 'dynamic',
