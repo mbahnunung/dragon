@@ -72,7 +72,7 @@ $('#top-4').click(function () {
         host: 'live.sg.radiobintangtenggara.com',
         port: 9560,
         version: 2,
-        directStreamURL: 'https://rbtfm.herokuapp.com/?q=http://live.sg.radiobintangtenggara.com:9560/rbt',
+        directStreamURL: 'https://rbtfm.herokuapp.com/?q=http://live.sg.radiobintangtenggara.com:9560/rbtfm',
         defaultArtwork: ['https://i.imgur.com/0X6Jnwe.png'],
         irrelevantWords: false,
         colors: 'dynamic',
