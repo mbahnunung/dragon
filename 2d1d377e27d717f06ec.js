@@ -72,7 +72,7 @@ $('#top-4').click(function () {
         host: 'live.radiobintangtenggara.com',
         port: 8000,
         version: 2,
-        directStreamURL: 'https://rbtfm.herokuapp.com/?q=http://live.radiobintangtenggara.com:8000/mbahnunungonline',
+        directStreamURL: 'https://hs..mbahnunungonline.net/rradio/audio.mp3',
         defaultArtwork: ['https://i.stack.imgur.com/LOa4W.png'],
         irrelevantWords: false,
         colors: 'dynamic',
