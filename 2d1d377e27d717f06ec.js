@@ -73,10 +73,10 @@ $('#top-4').click(function () {
         port: 8000,
         version: 2,
         directStreamURL: 'https://rbtfm.herokuapp.com/?q=http://live.radiobintangtenggara.com:8000/mbahnunungonline',
-        defaultArtwork: ['https://i.imgur.com/0X6Jnwe.png'],
+        defaultArtwork: ['https://upload.wikimedia.org/wikipedia/en/7/7c/AppleMusicIcon_macOS.png'],
         irrelevantWords: false,
         colors: 'dynamic',
-        theme: 'dark',
+        theme: 'dynamic',
         autoPlay: true,
         played: true
     })
@@ -91,7 +91,7 @@ $('#top-5').click(function () {
         defaultArtwork: ['https://warningfm.github.io/v3/images/no-cover-large.png'],
         irrelevantWords: false,
         colors: 'dynamic',
-        theme: 'dynamic',
+        theme: 'dark',
         //ui: 'transparent',
         autoPlay: true
     })
