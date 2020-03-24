@@ -85,8 +85,8 @@ $('#top-4').click(function () {
 // Handle: Example 5 click function
 $('#top-5').click(function () {
     $.kast({
-        host: 'live.citrafmradio.com',
-        port: 9882,
+        host: '192.99.8.170',
+        port: 8098,
         artwork: true,
         defaultArtwork: ['https://warningfm.github.io/v3/images/no-cover-large.png'],
         irrelevantWords: false,
