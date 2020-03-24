@@ -72,7 +72,7 @@ $('#top-4').click(function () {
         host: 'live.radiobintangtenggara.com',
         port: 8000,
         version: 2,
-        directStreamURL: 'https://hs.mbahnunungonline.net/stream/audio.aac',
+        directStreamURL: 'https://hs.mbahnunungonline.net/stream/audio.mp3',
         defaultArtwork: ['https://i.stack.imgur.com/LOa4W.png'],
         irrelevantWords: false,
         colors: 'dynamic',
