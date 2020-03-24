@@ -76,7 +76,7 @@ $('#top-4').click(function () {
         defaultArtwork: ['https://upload.wikimedia.org/wikipedia/en/7/7c/AppleMusicIcon_macOS.png'],
         irrelevantWords: false,
         colors: 'dynamic',
-        theme: 'dynamic',
+        theme: 'dark',
         autoPlay: true,
         played: true
     })
@@ -91,7 +91,7 @@ $('#top-5').click(function () {
         defaultArtwork: ['https://warningfm.github.io/v3/images/no-cover-large.png'],
         irrelevantWords: false,
         colors: 'dynamic',
-        theme: 'dark',
+        theme: 'dynamic',
         //ui: 'transparent',
         autoPlay: true
     })
