@@ -73,7 +73,7 @@ $('#top-4').click(function () {
         port: 8000,
         version: 2,
         directStreamURL: 'https://rbtfm.herokuapp.com/?q=http://live.radiobintangtenggara.com:8000/mbahnunungonline',
-        defaultArtwork: ['https://upload.wikimedia.org/wikipedia/en/7/7c/AppleMusicIcon_macOS.png'],
+        defaultArtwork: ['https://i.stack.imgur.com/LOa4W.png'],
         irrelevantWords: false,
         colors: 'dynamic',
         theme: 'dark',
