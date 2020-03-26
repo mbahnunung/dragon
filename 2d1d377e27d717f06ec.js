@@ -93,7 +93,7 @@ $('#top-5').click(function () {
         colors: 'dynamic',
         theme: 'dynamic',
         //ui: 'transparent',
-        autoPlay: true
+        autoPlay: false
     })
 })
 
