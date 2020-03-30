@@ -104,7 +104,7 @@ $('#top-6').click(function () {
         port: 8010,
         version: 2,
         protocol: 'http',
-        directStreamURL: 'https://ihon.herokuapp.com/http://217.120.175.194:8010/2',
+        directStreamURL: 'https://api.codetabs.com/v1/proxy?quest=http://217.120.175.194:8010/2',
         defaultArtwork: ['https://i.imgur.com/oDvLz7u.jpg'],
         irrelevantWords: false,
         colors: {
