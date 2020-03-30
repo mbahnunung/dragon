@@ -41,7 +41,7 @@ $('#top-2').click(function () {
         protocol: 'http',
         version: 2,
         sid: 1,
-        directStreamURL: 'https://radiofox.herokuapp.com/?q=http://87.98.216.129:4638/;',
+        directStreamURL: 'https://rbtfm.herokuapp.com/?q=http://87.98.216.129:4638/;',
         defaultArtwork: ['no-cover-large.png'],
         irrelevantWords: false,
         colors: 'dynamic',
@@ -104,7 +104,7 @@ $('#top-6').click(function () {
         port: 8010,
         version: 2,
         protocol: 'http',
-        directStreamURL: 'https://radiofox.herokuapp.com/?q=http://217.120.175.194:8010/2',
+        directStreamURL: 'https://ihon.herokuapp.com/http://217.120.175.194:8010/2',
         defaultArtwork: ['https://i.imgur.com/oDvLz7u.jpg'],
         irrelevantWords: false,
         colors: {
