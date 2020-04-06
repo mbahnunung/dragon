@@ -58,7 +58,7 @@ $('#top-3').click(function () {
     $.kast({
         host: 'stream3.radiocenter.si',
         port: 8068,
-        directStreamURL: 'https://castprox.herokuapp.com/http://stream3.radiocenter.si:8068/center',
+        directStreamURL: 'https://sertanejapop.herokuapp.com/?q=http://stream3.radiocenter.si:8068/center',
         defaultArtwork: ['https://warningfm.github.io/v3/images/1d205655ef29e14a8255c89fe2383a41.jpg'],
         irrelevantWords: false,
         colors: 'dynamic',
