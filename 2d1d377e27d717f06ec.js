@@ -73,7 +73,7 @@ $('#top-4').click(function () {
         port: 8000,
         version: 2,
         directStreamURL: 'https://stream.bintangtenggarafm.com/live/index.php',
-        defaultArtwork: ['https://i.stack.imgur.com/LOa4W.png'],
+        defaultArtwork: ['https://warningfm.github.io/v3/images/no-cover-large.png'],
         irrelevantWords: false,
         colors: 'dynamic',
         theme: 'dark',
