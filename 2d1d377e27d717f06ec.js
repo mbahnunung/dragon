@@ -124,7 +124,7 @@ $('#top-7').click(function () {
         version: 2,
         sid: 1,
         protocol: 'http',
-        directStreamURL: 'https://castprox.herokuapp.com/http://206.190.130.182:8142/stream',
+        directStreamURL: 'https://api.codetabs.com/v1/proxy?quest=http://206.190.130.182:8142/stream',
         defaultArtwork: ['https://warningfm.github.io/v3/images/1d205655ef29e14a8255c89fe2383a41.jpg'],
         irrelevantWords: false,
         colors: 'dynamic',
@@ -194,7 +194,7 @@ $('#top-11').click(function () {
         colors: 'dynamic',
         theme: 'dynamic',
         startTemplate: 'minimized',
-        statusBar: false
+        statusBar: true
     })
 })
 
