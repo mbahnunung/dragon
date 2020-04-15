@@ -72,7 +72,7 @@ $('#top-4').click(function () {
         host: 'live.bintangtenggarafm.com',
         port: 9560,
         version: 2,
-        directStreamURL: 'https://castprox.herokuapp.com/http://live.bintangtenggarafm.com:9560/rbt',
+        directStreamURL: 'https://castprox.herokuapp.com/http://live.bintangtenggarafm.com:9560/rbtfm',
         defaultArtwork: ['https://warningfm.github.io/v3/images/no-cover-large.png'],
         irrelevantWords: false,
         colors: 'dynamic',
