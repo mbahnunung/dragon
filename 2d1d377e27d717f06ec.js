@@ -124,7 +124,7 @@ $('#top-7').click(function () {
         version: 2,
         sid: 1,
         protocol: 'http',
-        directStreamURL: 'https://api.codetabs.com/v1/proxy?quest=http://206.190.130.182:8142/stream',
+        directStreamURL: 'https://rbtfm.herokuapp.com/?q=http://206.190.130.182:8142/stream',
         defaultArtwork: ['https://warningfm.github.io/v3/images/1d205655ef29e14a8255c89fe2383a41.jpg'],
         irrelevantWords: false,
         colors: 'dynamic',
@@ -171,7 +171,7 @@ $('#top-10').click(function () {
         port: 7777,
         version: 2,
         sid: 2,
-        directStreamURL: 'https://api.codetabs.com/v1/proxy?quest=http://173.254.198.39:7777/lipsaudio_aac',
+        directStreamURL: 'https://rbtfm.herokuapp.com/?q=http://173.254.198.39:7777/lipsaudio_aac',
         irrelevantWords: false,
         colors: {
             primary: 'grey',
