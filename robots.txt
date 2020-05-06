@@ -6,4 +6,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: https://radiotawangalun.com/sitemap.xml
+Sitemap: https://streaming.mbahnunungonline.net/sitemap.xml
