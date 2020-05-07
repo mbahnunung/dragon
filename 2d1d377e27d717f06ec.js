@@ -186,9 +186,9 @@ $('#top-10').click(function () {
 // Handle: Example 11 click function
 $('#top-11').click(function () {
     $.kast({
-        host: '192.111.140.11',
-        port: 8004,
-        sid: 2,
+        host: 'streaming.girifm.com',
+        port: 8010,
+        sid: 1,
         protocol: 'http',
         irrelevantWords: false,
         colors: 'dynamic',
