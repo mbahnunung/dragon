@@ -151,7 +151,7 @@ $('#top-8').click(function () {
 $('#top-9').click(function () {
     $.kast({
         host: 'cast.ariegm.com',
-        port: 8800,
+        port: 8880,
         version: 2,
         protocol: 'http',
         irrelevantWords: false,
