@@ -124,7 +124,7 @@ $('#top-7').click(function () {
         version: 2,
         sid: 1,
         protocol: 'http',
-        directStreamURL: 'https://rbtfm.herokuapp.com/?q=http://206.190.130.182:8142/stream',
+        directStreamURL: 'https://ihon.herokuapp.com/http://206.190.130.182:8142/stream',
         defaultArtwork: ['https://warningfm.github.io/v3/images/1d205655ef29e14a8255c89fe2383a41.jpg'],
         irrelevantWords: false,
         colors: 'dynamic',
