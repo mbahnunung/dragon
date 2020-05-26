@@ -150,7 +150,7 @@ $('#top-8').click(function () {
 // Handle: Example 9 click function
 $('#top-9').click(function () {
     $.kast({
-        host: 'cast.ariegm.com',
+        host: 'stream.ariegm.com',
         port: 8880,
         version: 2,
         protocol: 'http',
