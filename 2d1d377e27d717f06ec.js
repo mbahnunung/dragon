@@ -190,6 +190,7 @@ $('#top-11').click(function () {
         port: 8060,
         sid: 1,
         protocol: 'http',
+        directStreamURL: 'https://castprox.herokuapp.com/http://live.radiotawangalun.com:8060/rsta',
         irrelevantWords: false,
         colors: 'dynamic',
         theme: 'dynamic',
