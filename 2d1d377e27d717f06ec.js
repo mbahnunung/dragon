@@ -186,8 +186,8 @@ $('#top-10').click(function () {
 // Handle: Example 11 click function
 $('#top-11').click(function () {
     $.kast({
-        host: 'streaming.girifm.com',
-        port: 8010,
+        host: 'live.radiotawangalun.com',
+        port: 8060,
         sid: 1,
         protocol: 'http',
         irrelevantWords: false,
