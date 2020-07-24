@@ -119,12 +119,12 @@ $('#top-6').click(function () {
 // Handle: Example 7 click function
 $('#top-7').click(function () {
     $.kast({
-        host: '206.190.130.182',
-        port: 8142,
+        host: 's9.viastreaming.net',
+        port: 7060,
         version: 2,
         sid: 1,
         protocol: 'http',
-        directStreamURL: 'https://sertanejapop.herokuapp.com/?q=http://206.190.130.182:8142/stream',
+        directStreamURL: 'https://sertanejapop.herokuapp.com/?q=http://s9.viastreaming.net:7060/stream',
         defaultArtwork: ['https://warningfm.github.io/v3/images/1d205655ef29e14a8255c89fe2383a41.jpg'],
         irrelevantWords: false,
         colors: 'dynamic',
