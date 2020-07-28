@@ -88,6 +88,7 @@ $('#top-5').click(function () {
         host: '192.99.8.170',
         port: 8098,
         artwork: true,
+        directStreamURL: 'https://api.codetabs.com/v1/proxy?quest=http://192.99.8.170:8098/stream',
         defaultArtwork: ['https://warningfm.github.io/v3/images/no-cover-large.png'],
         irrelevantWords: false,
         colors: 'dynamic',
