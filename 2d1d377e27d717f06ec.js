@@ -140,6 +140,7 @@ $('#top-8').click(function () {
     $.kast({
         host: 'live.sg.mcfmbwi.com',
         port: 9720,
+        directStreamURL: 'https://api.codetabs.com/v1/proxy?quest=http://live.sg.mcfmbwi.com:9720/mcfm',
         irrelevantWords: false,
         colors: 'dynamic',
         theme: 'dynamic',
@@ -155,6 +156,7 @@ $('#top-9').click(function () {
         port: 8800,
         version: 2,
         protocol: 'http',
+        directStreamURL: 'https://api.codetabs.com/v1/proxy?quest=http://stream.ariegm.com:8800/stream',
         irrelevantWords: false,
         colors: {
             primary: 'blue grey'
