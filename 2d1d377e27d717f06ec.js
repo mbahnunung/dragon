@@ -140,7 +140,7 @@ $('#top-8').click(function () {
     $.kast({
         host: 'live.sg.mcfmbwi.com',
         port: 9720,
-        directStreamURL: 'https://sertanejapop.herokuapp.com/?q=http://live.sg.mcfmbwi.com:9720/mcfm',
+        directStreamURL: 'https://api.codetabs.com/v1/proxy?quest=http://live.sg.mcfmbwi.com:9720/mcfm',
         irrelevantWords: false,
         colors: 'dynamic',
         theme: 'dynamic',
@@ -174,7 +174,7 @@ $('#top-10').click(function () {
         port: 7777,
         version: 2,
         sid: 2,
-        directStreamURL: 'https://sertanejapop.herokuapp.com/?q=http://173.254.198.39:7777/lipsaudio_aac',
+        directStreamURL: 'https://api.codetabs.com/v1/proxy?quest=http://173.254.198.39:7777/lipsaudio_aac',
         irrelevantWords: false,
         colors: {
             primary: 'grey',
