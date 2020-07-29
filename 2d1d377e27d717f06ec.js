@@ -207,11 +207,9 @@ $('#top-12').click(function () {
     $.kast({
         host: 'diradio.biru.co.id',
         port: 8910,
-        https://api.codetabs.com/v1/proxy?quest=http://diradio.biru.co.id:8910/stream
         colors: 'dynamic',
         theme: 'dynamic',
         mobileCare: ['ultra', '4069px'], // the pixel number here is to force MobileCare to run on Desktops and Tablets too (Up to 4K Screens)
         continuous: false
     })
 })
-
