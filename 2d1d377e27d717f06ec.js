@@ -140,7 +140,7 @@ $('#top-8').click(function () {
     $.kast({
         host: 'live.sg.mcfmbwi.com',
         port: 9720,
-        directStreamURL: 'https://api.codetabs.com/v1/proxy?quest=http://live.sg.mcfmbwi.com:9720/mcfm',
+        directStreamURL: 'https://sertanejapop.herokuapp.com/?q=http://live.sg.mcfmbwi.com:9720/mcfm',
         irrelevantWords: false,
         colors: 'dynamic',
         theme: 'dynamic',
