@@ -120,12 +120,12 @@ $('#top-6').click(function () {
 // Handle: Example 7 click function
 $('#top-7').click(function () {
     $.kast({
-        host: 's9.viastreaming.net',
-        port: 7060,
+        host: '173.254.198.39',
+        port: 8900,
         version: 2,
         sid: 1,
         protocol: 'http',
-        directStreamURL: 'https://api.codetabs.com/v1/proxy?quest=http://s9.viastreaming.net:7060/stream',
+        directStreamURL: 'https://api.codetabs.com/v1/proxy?quest=http://173.254.198.39:8900/maxradio_aac',
         defaultArtwork: ['https://warningfm.github.io/v3/images/1d205655ef29e14a8255c89fe2383a41.jpg'],
         irrelevantWords: false,
         colors: 'dynamic',
