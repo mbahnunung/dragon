@@ -156,7 +156,7 @@ $('#top-9').click(function () {
         port: 8800,
         version: 2,
         protocol: 'http',
-        directStreamURL: 'https://api.codetabs.com/v1/proxy?quest=http://stream.ariegm.com:8800/stream',
+        directStreamURL: 'https://castprox.herokuapp.com/http://stream.ariegm.com:8800/stream',
         irrelevantWords: false,
         colors: {
             primary: 'blue grey'
