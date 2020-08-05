@@ -69,10 +69,10 @@ $('#top-3').click(function () {
 // Handle: Example 4 click function
 $('#top-4').click(function () {
     $.kast({
-        host: 'live.radiobintangtenggara.com',
+        host: 'live.mbahnunungonline.net',
         port: 8000,
         version: 2,
-        directStreamURL: 'https://ihon.herokuapp.com/http://live.radiobintangtenggara.com:8000/mbahnunungonline',
+        directStreamURL: 'https://ihon.herokuapp.com/http://live.mbahnunungonline.net:8000/mbahnunungonline',
         defaultArtwork: ['https://warningfm.github.io/v3/images/no-cover-large.png'],
         irrelevantWords: false,
         colors: 'dynamic',
