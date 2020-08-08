@@ -121,11 +121,11 @@ $('#top-6').click(function () {
 $('#top-7').click(function () {
     $.kast({
         host: 'live.elpasfm.com',
-        port: 8900,
+        port: 8072,
         version: 2,
         sid: 1,
         protocol: 'http',
-        directStreamURL: 'https://sertanejapop.herokuapp.com/?q=http://live.elpasfm.com:8900/maxradio_aac',
+        directStreamURL: 'https://sertanejapop.herokuapp.com/?q=http://live.elpasfm.com:8072/elpasfm',
         defaultArtwork: ['https://warningfm.github.io/v3/images/1d205655ef29e14a8255c89fe2383a41.jpg'],
         irrelevantWords: false,
         colors: 'dynamic',
