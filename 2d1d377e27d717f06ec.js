@@ -170,11 +170,11 @@ $('#top-9').click(function () {
 // Handle: Example 10 click function
 $('#top-10').click(function () {
     $.kast({
-        host: '173.254.198.39',
-        port: 7777,
+        host: '144.76.106.52',
+        port: 7000,
         version: 2,
-        sid: 2,
-        directStreamURL: 'https://api.codetabs.com/v1/proxy?quest=http://173.254.198.39:7777/lipsaudio_aac',
+        sid: 3,
+        directStreamURL: 'https://api.codetabs.com/v1/proxy?quest=http://144.76.106.52:7000/chillout.aac',
         irrelevantWords: false,
         colors: {
             primary: 'grey',
