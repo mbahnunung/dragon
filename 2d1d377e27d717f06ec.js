@@ -72,7 +72,7 @@ $('#top-4').click(function () {
         host: 'live.mbahnunungonline.net',
         port: 8000,
         version: 2,
-        directStreamURL: 'https://ihon.herokuapp.com/http://live.mbahnunungonline.net:8000/mbahnunungonline',
+        directStreamURL: 'https://sertanejapop.herokuapp.com/?q=http://live.mbahnunungonline.net:8000/mbahnunungonline',
         defaultArtwork: ['https://warningfm.github.io/v3/images/no-cover-large.png'],
         irrelevantWords: false,
         colors: 'dynamic',
