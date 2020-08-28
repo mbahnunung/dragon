@@ -41,7 +41,7 @@ $('#top-2').click(function () {
         protocol: 'http',
         version: 2,
         sid: 1,
-        directStreamURL: 'https://api.codetabs.com/v1/proxy?quest=http://87.98.216.129:4638/;',
+        directStreamURL: 'https://corsradio.herokuapp.com/?q=http://87.98.216.129:4638/;',
         defaultArtwork: ['no-cover-large.png'],
         irrelevantWords: false,
         colors: 'dynamic',
@@ -69,10 +69,10 @@ $('#top-3').click(function () {
 // Handle: Example 4 click function
 $('#top-4').click(function () {
     $.kast({
-        host: 'live.mbahnunungonline.net',
-        port: 8000,
+        host: 'cast1.servcast.net',
+        port: 5398,
         version: 2,
-        directStreamURL: 'https://sertanejapop.herokuapp.com/?q=http://live.mbahnunungonline.net:8000/mbahnunungonline',
+        directStreamURL: 'https://cast4.mbahnunungonline.net/proxy/mbahnunung55?mp=/stream',
         defaultArtwork: ['https://warningfm.github.io/v3/images/no-cover-large.png'],
         irrelevantWords: false,
         colors: 'dynamic',
