@@ -156,7 +156,7 @@ $('#top-9').click(function () {
         port: 8800,
         version: 2,
         protocol: 'http',
-        directStreamURL: 'https://castprox.herokuapp.com/http://stream.ariegm.com:8800/stream',
+        directStreamURL: 'https://us-server.radioidola.com:8880/stream',
         irrelevantWords: false,
         colors: {
             primary: 'blue grey'
@@ -173,8 +173,8 @@ $('#top-10').click(function () {
         host: '144.76.106.52',
         port: 7000,
         version: 2,
-        sid: 3,
-        directStreamURL: 'https://castprox.herokuapp.com/http://144.76.106.52:7000/chillout.aac',
+        sid: 1,
+        directStreamURL: 'https://castprox.herokuapp.com/http://144.76.106.52:7000/progressive.aac',
         irrelevantWords: false,
         colors: {
             primary: 'grey',
