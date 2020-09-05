@@ -24,7 +24,7 @@ $('#top-1').click(function () {
         protocol: 'http',
         version: 2,
         sid: 1,
-        //directStreamURL: 'https://live.prodjradio.net:8065/radio',
+        directStreamURL: 'https://live.prodjradio.net:8065/radio',
         defaultArtwork: ['no-cover-large.png'],
         irrelevantWords: false,
         colors: 'dynamic',
