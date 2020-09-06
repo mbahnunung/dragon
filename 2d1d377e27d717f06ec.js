@@ -156,7 +156,7 @@ $('#top-9').click(function () {
         port: 8800,
         version: 2,
         protocol: 'http',
-        //directStreamURL: 'https://us-server.radioidola.com:8880/stream',
+        directStreamURL: 'https://us-server.radioidola.com:8880/stream',
         irrelevantWords: false,
         colors: {
             primary: 'blue grey'
