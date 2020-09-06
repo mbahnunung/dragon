@@ -72,7 +72,7 @@ $('#top-4').click(function () {
         host: 'cast1.servcast.net',
         port: 5398,
         version: 2,
-        //directStreamURL: 'https://cast4.mbahnunungonline.net/proxy/mbahnunung55?mp=/stream',
+        //directStreamURL: 'https://www.rcast.net/proxy/159652',
         defaultArtwork: ['https://warningfm.github.io/v3/images/no-cover-large.png'],
         irrelevantWords: false,
         colors: 'dynamic',
