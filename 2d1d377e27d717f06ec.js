@@ -120,8 +120,8 @@ $('#top-6').click(function () {
 // Handle: Example 7 click function
 $('#top-7').click(function () {
     $.kast({
-        host: 'live.elpasfm.com',
-        port: 8072,
+        host: 'sj128.hnux.com',
+        port: 80,
         version: 2,
         sid: 1,
         protocol: 'http',
