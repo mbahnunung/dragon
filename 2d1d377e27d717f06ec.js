@@ -85,7 +85,7 @@ $('#top-4').click(function () {
 // Handle: Example 5 click function
 $('#top-5').click(function () {
     $.kast({
-        host: '192.99.8.170',
+        host: 'curiosity.shoutca.st',
         port: 8098,
         artwork: true,
         //directStreamURL: 'https://corsradio.herokuapp.com/?q=http://192.99.8.170:8098/stream',
