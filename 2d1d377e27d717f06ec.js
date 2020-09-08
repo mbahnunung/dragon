@@ -88,7 +88,7 @@ $('#top-5').click(function () {
         host: 'curiosity.shoutca.st',
         port: 8098,
         artwork: true,
-        //directStreamURL: 'https://corsradio.herokuapp.com/?q=http://192.99.8.170:8098/stream',
+        //directStreamURL: 'https://corsradio.herokuapp.com/?q=http://curiosity.shoutca.st:8098/stream',
         defaultArtwork: ['https://warningfm.github.io/v3/images/no-cover-large.png'],
         irrelevantWords: false,
         colors: 'dynamic',
@@ -105,7 +105,7 @@ $('#top-6').click(function () {
         port: 8010,
         version: 2,
         protocol: 'http',
-        //directStreamURL: 'https://clover-cors.herokuapp.com/?q=http://217.120.175.194:8010/2',
+        //directStreamURL: 'https://clover-cors.herokuapp.com/?q=http://tgas.dyndns.org:8010/2',
         defaultArtwork: ['https://i.imgur.com/oDvLz7u.jpg'],
         irrelevantWords: false,
         colors: {
@@ -125,7 +125,7 @@ $('#top-7').click(function () {
         version: 2,
         sid: 1,
         protocol: 'http',
-        //directStreamURL: 'https://sertanejapop.herokuapp.com/?q=http://live.elpasfm.com:8072/elpasfm',
+        //directStreamURL: 'https://sertanejapop.herokuapp.com/?q=http://sj128.hnux.com:80/stream',
         defaultArtwork: ['https://warningfm.github.io/v3/images/1d205655ef29e14a8255c89fe2383a41.jpg'],
         irrelevantWords: false,
         colors: 'dynamic',
@@ -156,7 +156,7 @@ $('#top-9').click(function () {
         port: 8800,
         version: 2,
         protocol: 'http',
-        //directStreamURL: 'https://us-server.radioidola.com:8880/stream',
+        directStreamURL: 'https://us-server.radioidola.com:8880/stream',
         irrelevantWords: false,
         colors: {
             primary: 'blue grey'
