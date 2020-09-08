@@ -41,7 +41,7 @@ $('#top-2').click(function () {
         protocol: 'http',
         version: 2,
         sid: 1,
-        //directStreamURL: 'https://corsradio.herokuapp.com/?q=http://87.98.216.129:4638/;',
+        directStreamURL: 'https://www.rcast.net/proxy/152768.mp3',
         defaultArtwork: ['no-cover-large.png'],
         irrelevantWords: false,
         colors: 'dynamic',
@@ -58,7 +58,7 @@ $('#top-3').click(function () {
     $.kast({
         host: 'stream3.radiocenter.si',
         port: 8068,
-        //directStreamURL: 'https://center.mbahnunungonline.net/proxy/center2?mp=/center',
+        directStreamURL: 'https://center.mbahnunungonline.net/proxy/center2?mp=/center',
         defaultArtwork: ['https://warningfm.github.io/v3/images/1d205655ef29e14a8255c89fe2383a41.jpg'],
         irrelevantWords: false,
         colors: 'dynamic',
@@ -69,10 +69,10 @@ $('#top-3').click(function () {
 // Handle: Example 4 click function
 $('#top-4').click(function () {
     $.kast({
-        host: 'cast1.servcast.net',
-        port: 5398,
+        host: 'live.sg.radiobintangtenggara.com',
+        port: 9560,
         version: 2,
-        //directStreamURL: 'https://www.rcast.net/proxy/159652',
+        directStreamURL: 'https://www.rcast.net/proxy/159652',
         defaultArtwork: ['https://warningfm.github.io/v3/images/no-cover-large.png'],
         irrelevantWords: false,
         colors: 'dynamic',
