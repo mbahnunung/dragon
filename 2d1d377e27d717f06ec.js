@@ -91,7 +91,7 @@ $('#top-5').click(function () {
         version: 1,
         artwork: true,
         //directStreamURL: 'https://corsradio.herokuapp.com/?q=http://curiosity.shoutca.st:8098/stream',
-        defaultArtwork: ['https://warningfm.github.io/v3/images/no-cover-large.png'],
+        defaultArtwork: ['https://warningfm.github.io/v3/images/1d205655ef29e14a8255c89fe2383a41.jpg'],
         irrelevantWords: false,
         colors: 'dynamic',
         theme: 'dynamic',
