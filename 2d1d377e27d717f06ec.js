@@ -74,7 +74,7 @@ $('#top-4').click(function () {
         port: 9560,
         version: 1,
         directStreamURL: 'https://ssg.streamingmurah.com:9560/rbt',
-        defaultArtwork: ['https://warningfm.github.io/v3/images/no-cover-large.png'],
+        defaultArtwork: ['https://warningfm.github.io/v3/images/1d205655ef29e14a8255c89fe2383a41.jpg'],
         irrelevantWords: false,
         colors: 'dynamic',
         theme: 'dark',
