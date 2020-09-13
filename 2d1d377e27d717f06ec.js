@@ -73,7 +73,7 @@ $('#top-4').click(function () {
         host: 'live.sg.radiobintangtenggara.com',
         port: 9560,
         version: 1,
-        directStreamURL: 'https://www.rcast.net/proxy/159652',
+        directStreamURL: 'https://ssg.streamingmurah.com:9560/rbt',
         defaultArtwork: ['https://warningfm.github.io/v3/images/no-cover-large.png'],
         irrelevantWords: false,
         colors: 'dynamic',
