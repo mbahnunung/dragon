@@ -60,7 +60,7 @@ $('#top-4').click(function () {
         colors: 'dynamic',
         theme: 'dark',
         autoPlay: true,
-        played: false
+        played: true
     })
 })
 
@@ -97,7 +97,7 @@ $('#top-7').click(function () {
     $.kast({
         host: 'live.prodjradio.net',
         port: 8000,
-        version: 1,
+        version: 2,
         //sid: 1,
         protocol: 'http',
         directStreamURL: 'https://live.prodjradio.net:8065/radio',
@@ -115,7 +115,7 @@ $('#top-8').click(function () {
     $.kast({
         host: 'live.sg.mcfmbwi.com',
         port: 9720,
-        version: 1,
+        version: 2,
         //directStreamURL: 'https://corsradio.herokuapp.com/?q=http://live.sg.mcfmbwi.com:9720/mcfm',
         irrelevantWords: false,
         colors: 'dynamic',
@@ -167,7 +167,7 @@ $('#top-11').click(function () {
     $.kast({
         host: 'live.radiotawangalun.com',
         port: 8060,
-        version: 1,
+        version: 2,
         protocol: 'http',
         //directStreamURL: 'https://corsradio.herokuapp.com/index.php?q=http://live.radiotawangalun.com:8060/rsta',
         irrelevantWords: false,
@@ -183,7 +183,7 @@ $('#top-12').click(function () {
     $.kast({
         host: 'diradio.biru.co.id',
         port: 8910,
-        version: 1,
+        version: 2,
         colors: 'dynamic',
         theme: 'dynamic',
         mobileCare: ['ultra', '4069px'], // the pixel number here is to force MobileCare to run on Desktops and Tablets too (Up to 4K Screens)
