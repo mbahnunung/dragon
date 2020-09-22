@@ -19,7 +19,7 @@ $('.card-content').click(function () {
 // Handle: Example 1 click function
 $('#top-1').click(function () {
     $.kast({
-        host: 'sj128.hnux.com',
+        host: 'sj64.hnux.com',
         colors: 'dynamic',
         theme: 'dynamic',
         mobileCare: false
@@ -33,7 +33,7 @@ $('#top-2').click(function () {
         port: 4638,
         colors: 'dynamic',
         theme: 'dynamic',
-        ui: 'transparent',
+        //ui: 'transparent',
         serverInfo: ['servergenre', 'servertitle'],
         autoPlay: true,
         continuous: false
@@ -100,7 +100,7 @@ $('#top-7').click(function () {
         version: 2,
         //sid: 1,
         protocol: 'http',
-        directStreamURL: 'https://live.prodjradio.net:8065/radio',
+        //directStreamURL: 'https://live.prodjradio.net:8065/radio',
         defaultArtwork: ['https://warningfm.github.io/v3/images/1d205655ef29e14a8255c89fe2383a41.jpg'],
         irrelevantWords: false,
         colors: 'dynamic',
