@@ -129,11 +129,11 @@ $('#top-8').click(function () {
 // Handle: Example 9 click function
 $('#top-9').click(function () {
     $.kast({
-        host: 'stream.ariegm.com',
-        port: 8800,
+        host: 'stream.rockradio.si',
+        port: 9034,
         version: 2,
         protocol: 'http',
-        directStreamURL: 'https://us-server.radioidola.com:8880/stream',
+        //directStreamURL: 'https://us-server.radioidola.com:8880/stream',
         irrelevantWords: false,
         colors: {
             primary: 'blue grey'
