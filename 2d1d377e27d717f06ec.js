@@ -133,7 +133,7 @@ $('#top-9').click(function () {
         port: 9034,
         version: 2,
         protocol: 'http',
-        //directStreamURL: 'https://us-server.radioidola.com:8880/stream',
+        //directStreamURL: 'http://stream.rockradio.si/proxy/rockr1_1?mp=/rock',
         irrelevantWords: false,
         colors: {
             primary: 'blue grey'
