@@ -117,7 +117,7 @@ $('#top-8').click(function () {
         host: 'live.sg.mcfmbwi.com',
         port: 9720,
         version: 2,
-        //directStreamURL: 'https://corsradio.herokuapp.com/?q=http://live.sg.mcfmbwi.com:9720/mcfm',
+        directStreamURL: 'https://ssg.streamingmurah.com:9720/mcfm',
         irrelevantWords: false,
         colors: 'dynamic',
         theme: 'dynamic',
@@ -133,7 +133,7 @@ $('#top-9').click(function () {
         port: 9034,
         version: 2,
         protocol: 'http',
-        //directStreamURL: 'http://stream.rockradio.si/proxy/rockr1_1?mp=/rock',
+        directStreamURL: 'http://stream.rockradio.si/proxy/rockr1_1?mp=/rock',
         irrelevantWords: false,
         colors: {
             primary: 'blue grey'
