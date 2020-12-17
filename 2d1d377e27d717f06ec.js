@@ -166,8 +166,8 @@ $('#top-10').click(function () {
 // Handle: Example 11 click function
 $('#top-11').click(function () {
     $.kast({
-        host: 'live.radiotawangalun.com',
-        port: 8060,
+        host: 'fps6.listen2myradio.com',
+        port: 9118,
         version: 2,
         protocol: 'http',
         //directStreamURL: 'https://corsradio.herokuapp.com/index.php?q=http://live.radiotawangalun.com:8060/rsta',
