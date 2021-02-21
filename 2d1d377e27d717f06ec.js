@@ -151,7 +151,7 @@ $('#top-10').click(function () {
         port: 7000,
         version: 2,
         sid: 1,
-        //directStreamURL: 'https://castprox.herokuapp.com/http://144.76.106.52:7000/progressive.aac',
+        //directStreamURL: 'http://144.76.106.52:7000/progressive.aac',
         irrelevantWords: false,
         colors: {
             primary: 'grey',
@@ -170,7 +170,7 @@ $('#top-11').click(function () {
         port: 9118,
         version: 2,
         protocol: 'http',
-        //directStreamURL: 'https://corsradio.herokuapp.com/index.php?q=http://live.radiotawangalun.com:8060/rsta',
+        directStreamURL: 'https://fps6.mbahnunungonline.net/proxy/radiouser374134865?mp=/stream',
         irrelevantWords: false,
         colors: 'dynamic',
         theme: 'dynamic',
