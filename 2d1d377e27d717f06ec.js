@@ -170,7 +170,7 @@ $('#top-11').click(function () {
         port: 9118,
         version: 2,
         protocol: 'http',
-        directStreamURL: 'https://fps6.mbahnunungonline.net/proxy/radiouser374134865?mp=/stream',
+        //directStreamURL: 'https://fps6.mbahnunungonline.net/proxy/radiouser374134865?mp=/stream',
         irrelevantWords: false,
         colors: 'dynamic',
         theme: 'dynamic',
