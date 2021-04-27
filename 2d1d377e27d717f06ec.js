@@ -166,7 +166,7 @@ $('#top-10').click(function () {
 // Handle: Example 11 click function
 $('#top-11').click(function () {
     $.kast({
-        host: 'fps6.listen2myradio.com',
+        host: '78.129.237.53',
         port: 9118,
         version: 2,
         protocol: 'http',
