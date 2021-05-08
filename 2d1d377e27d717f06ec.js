@@ -53,8 +53,8 @@ $('#top-3').click(function () {
 // Handle: Example 4 click function
 $('#top-4').click(function () {
     $.kast({
-        host: 'live.mbahnunungonline.net',
-        port: 8000,
+        host: 'live.sg.radiobintangtenggara.com',
+        port: 9560,
         protocol: 'http',
         //directStreamURL: 'https://ssg.streamingmurah.com:9560/rbt',
         defaultArtwork: ['https://warningfm.github.io/v3/images/1d205655ef29e14a8255c89fe2383a41.jpg'],
