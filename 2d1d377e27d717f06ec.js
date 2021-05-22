@@ -19,7 +19,7 @@ $('.card-content').click(function () {
 // Handle: Example 1 click function
 $('#top-1').click(function () {
     $.kast({
-        host: 'sj64.hnux.com',
+        host: 'smoothjazz.cdnstream1.com',
         colors: 'dynamic',
         theme: 'dynamic',
         mobileCare: false
