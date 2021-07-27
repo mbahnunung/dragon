@@ -84,7 +84,7 @@ $('#top-6').click(function () {
     $.kast({
         host: 'tgas.dyndns.org',
         port: 8010,
-        version: 1,
+        version: 2,
         colors: {
             primary: 'blue grey'
             //accent: 'yellow' // Because accent is yellow by default
