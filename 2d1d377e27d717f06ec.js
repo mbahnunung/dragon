@@ -19,7 +19,8 @@ $('.card-content').click(function () {
 // Handle: Example 1 click function
 $('#top-1').click(function () {
     $.kast({
-        host: 'smoothjazz.cdnstream1.com',
+        host: '64.40.111.77',
+        port: 8000,
         colors: 'dynamic',
         theme: 'dynamic',
         mobileCare: false
