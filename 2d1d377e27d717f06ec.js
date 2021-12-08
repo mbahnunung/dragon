@@ -115,7 +115,7 @@ $('#top-7').click(function () {
 // Handle: Example 8 click function
 $('#top-8').click(function () {
     $.kast({
-        host: 'live.sg.radiobintangtenggara.com',
+        host: 'rbtfm.cloudns.info',
         port: 9720,
         version: 2,
         directStreamURL: 'https://ssg.streamingmurah.com:9720/mcfm',
