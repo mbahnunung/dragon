@@ -6,11 +6,11 @@
 // =============================================== //
 
     $.kast({
-        host: 'ssg.streamingmurah.com',
+        host: 'rbtfm.cloudns.info',
         port: 9560,
-        protocol: 'https',
+        protocol: 'http',
         version: 1,
-        //directStreamURL: 'https://cast4.mbahnunungonline.net/proxy/mbahnunung55?mp=/stream',
+        directStreamURL: 'https://ssg.streamingmurah.com:9560/rbtfm',
         defaultArtwork: ['https://warningfm.github.io/v3/images/1d205655ef29e14a8255c89fe2383a41.jpg'],
         statusBar: false,
         startTemplate: 'maximized',
