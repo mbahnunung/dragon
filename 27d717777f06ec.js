@@ -11,7 +11,7 @@
         protocol: 'http',
         version: 1,
         directStreamURL: 'https://ssg.streamingmurah.com:9560/rbtfm',
-        defaultArtwork: ['https://warningfm.github.io/v3/images/1d205655ef29e14a8255c89fe2383a41.jpg'],
+        defaultArtwork: ['https://raw.githubusercontent.com/warningfm/v3/master/images/1d205655ef29e14a8255c89fe2383a41.jpg'],
         statusBar: false,
         startTemplate: 'maximized',
         language: {
