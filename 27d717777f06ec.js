@@ -10,7 +10,7 @@
         port: 9560,
         protocol: 'http',
         version: 1,
-        directStreamURL: 'https://ssg.streamingmurah.com:9560/rbtfm',
+        directStreamURL: 'https://ssg.streamingmurah.com:9560/rbt',
         defaultArtwork: ['https://raw.githubusercontent.com/warningfm/v3/master/images/1d205655ef29e14a8255c89fe2383a41.jpg'],
         statusBar: false,
         startTemplate: 'maximized',
