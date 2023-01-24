@@ -47,7 +47,11 @@ $('#top-3').click(function () {
         host: 'stream3.radiocenter.si',
         port: 8068,
         colors: 'dynamic',
-        theme: 'dynamic'
+        theme: 'dynamic',
+        //ui: 'transparent',
+        serverInfo: ['servergenre', 'servertitle'],
+        autoPlay: true,
+        continuous: false
     })
 })
 
