@@ -45,7 +45,7 @@ $('#top-2').click(function () {
 $('#top-3').click(function () {
     $.kast({
         host: 'stream3.radiocenter.si',
-        port: 8068,
+        port: 8000,
         colors: 'dynamic',
         theme: 'dynamic',
         //ui: 'transparent',
