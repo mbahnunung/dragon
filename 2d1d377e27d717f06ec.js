@@ -48,6 +48,7 @@ $('#top-3').click(function () {
         port: 8000,
         colors: 'dynamic',
         theme: 'dynamic',
+        directStreamURL: 'https://stream.nextmedia.si/proxy/center2?mp=/center;',
         //ui: 'transparent',
         serverInfo: ['servergenre', 'servertitle'],
         autoPlay: true,
