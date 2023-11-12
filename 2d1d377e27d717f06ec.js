@@ -60,10 +60,10 @@ $('#top-3').click(function () {
 // Handle: Example 4 click function
 $('#top-4').click(function () {
     $.kast({
-        host: 'live.sg.radiobintangtenggara.com',
+        host: 'ssg.streamingmurah.com',
         port: 9560,
-        protocol: 'http',
-        directStreamURL: 'https://ssg.streamingmurah.com:9560/rbtfm',
+        protocol: 'https',
+        //directStreamURL: 'https://ssg.streamingmurah.com:9560/rbtfm',
         defaultArtwork: ['https://warningfm.github.io/v3/images/1d205655ef29e14a8255c89fe2383a41.jpg'],
         colors: 'dynamic',
         theme: 'dark',
@@ -75,8 +75,9 @@ $('#top-4').click(function () {
 // Handle: Example 5 click function
 $('#top-5').click(function () {
     $.kast({
-        host: 'curiosity.shoutca.st',
-        port: 8098,
+        host: 'radione.top',
+        port: 8000,
+        protocol: 'https',
         artwork: true,
         colors: 'dynamic',
         theme: 'dynamic',
