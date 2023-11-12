@@ -107,7 +107,7 @@ $('#top-7').click(function () {
         version: 2,
         //sid: 1,
         protocol: 'http',
-        directStreamURL: 'https://ssl1.surfmusik.de/s.php?s=http://live.prodjradio.net:8000/;',
+        directStreamURL: 'https://ssl1.surfmusik.de/s.php?s=http://live.prodjradio.net:8000',
         defaultArtwork: ['https://warningfm.github.io/v3/images/1d205655ef29e14a8255c89fe2383a41.jpg'],
         irrelevantWords: false,
         colors: 'dynamic',
