@@ -139,7 +139,7 @@ $('#top-9').click(function () {
         port: 9034,
         version: 2,
         protocol: 'http',
-        directStreamURL: 'https://ssl1.surfmusik.de/s.php?s=http://stream.rockradio.si/proxy/rockr1_1?mp=/rock',
+        directStreamURL: 'https://stream.nextmedia.si/proxy/rockr1_1?mp=/rock',
         irrelevantWords: false,
         colors: {
             primary: 'blue grey'
