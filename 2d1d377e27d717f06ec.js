@@ -107,7 +107,7 @@ $('#top-7').click(function () {
         version: 2,
         //sid: 1,
         protocol: 'http',
-        directStreamURL: 'https://live.prodjradio.net:8065/radio',
+        directStreamURL: 'https://ssl1.surfmusik.de/s.php?s=http://live.prodjradio.net:8000/;',
         defaultArtwork: ['https://warningfm.github.io/v3/images/1d205655ef29e14a8255c89fe2383a41.jpg'],
         irrelevantWords: false,
         colors: 'dynamic',
@@ -139,7 +139,7 @@ $('#top-9').click(function () {
         port: 9034,
         version: 2,
         protocol: 'http',
-        directStreamURL: 'http://stream.rockradio.si/proxy/rockr1_1?mp=/rock',
+        directStreamURL: 'https://ssl1.surfmusik.de/s.php?s=http://stream.rockradio.si/proxy/rockr1_1?mp=/rock',
         irrelevantWords: false,
         colors: {
             primary: 'blue grey'
@@ -157,7 +157,7 @@ $('#top-10').click(function () {
         port: 7000,
         version: 2,
         sid: 1,
-        //directStreamURL: 'http://144.76.106.52:7000/progressive.aac',
+        directStreamURL: 'https://ssl1.surfmusik.de/s.php?s=http://144.76.106.52:7000/progressive.aac',
         irrelevantWords: false,
         colors: {
             primary: 'grey',
