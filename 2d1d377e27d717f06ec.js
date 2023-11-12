@@ -120,10 +120,10 @@ $('#top-7').click(function () {
 // Handle: Example 8 click function
 $('#top-8').click(function () {
     $.kast({
-        host: 'rbtfm.cloudns.info',
-        port: 9720,
+        host: 'streaming.girifm.com',
+        port: 8010,
         version: 2,
-        directStreamURL: 'https://ssg.streamingmurah.com:9720/mcfm',
+        directStreamURL: 'https://ssl1.surfmusik.de/s.php?s=http://streaming.girifm.com:8010/;',
         irrelevantWords: false,
         colors: 'dynamic',
         theme: 'dynamic',
