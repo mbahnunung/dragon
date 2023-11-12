@@ -30,8 +30,8 @@ $('#top-1').click(function () {
 // Handle: Example 2 click function
 $('#top-2').click(function () {
     $.kast({
-        host: '87.98.216.129',
-        port: 4638,
+        host: 'streaming.girifm.com',
+        port: 8020,
         colors: 'dynamic',
         theme: 'dynamic',
         //ui: 'transparent',
