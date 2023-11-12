@@ -123,7 +123,7 @@ $('#top-8').click(function () {
         host: 'streaming.girifm.com',
         port: 8010,
         version: 2,
-        directStreamURL: 'https://azuracast.suzananet.com/radio/8010/;',
+        directStreamURL: 'https://azuracast.suzananet.com/radio/8010/radio',
         irrelevantWords: false,
         colors: 'dynamic',
         theme: 'dynamic',
