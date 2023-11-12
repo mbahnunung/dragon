@@ -32,6 +32,7 @@ $('#top-2').click(function () {
     $.kast({
         host: 'streaming.girifm.com',
         port: 8020,
+        directStreamURL: 'https://azuracast.suzananet.com/radio/8020/radio',
         colors: 'dynamic',
         theme: 'dynamic',
         //ui: 'transparent',
