@@ -159,7 +159,7 @@ $('#top-10').click(function () {
         port: 7000,
         version: 2,
         sid: 1,
-        directStreamURL: 'https://ssl1.surfmusik.de/s.php?s=http://144.76.106.52:7000/progressive.aac',
+        directStreamURL: 'https://hirschmilch.de:7000/progressive.aac',
         irrelevantWords: false,
         colors: {
             primary: 'grey',
