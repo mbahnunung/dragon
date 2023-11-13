@@ -174,11 +174,11 @@ $('#top-10').click(function () {
 // Handle: Example 11 click function
 $('#top-11').click(function () {
     $.kast({
-        host: '78.129.237.53',
-        port: 9118,
+        host: 'streaming.ebsfm.com',
+        port: 8100,
         version: 2,
         protocol: 'http',
-        //directStreamURL: 'https://fps6.mbahnunungonline.net/proxy/radiouser374134865?mp=/stream',
+        directStreamURL: 'https://azuracast.suzananet.com/radio/8100/radio',
         irrelevantWords: false,
         colors: 'dynamic',
         theme: 'dynamic',
