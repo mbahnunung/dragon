@@ -19,8 +19,8 @@ $('.card-content').click(function () {
 // Handle: Example 1 click function
 $('#top-1').click(function () {
     $.kast({
-        host: 'azuracast.suzananet.com/radio/8010',
-        //port: ,
+        host: 'azuracast.suzananet.com',
+        port: 8010,
         protocol: 'https',
         colors: 'dynamic',
         theme: 'dynamic',
