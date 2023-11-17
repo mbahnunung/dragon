@@ -20,7 +20,7 @@ $('.card-content').click(function () {
 $('#top-1').click(function () {
     $.kast({
         host: 'azuracast.suzananet.com/radio/8010',
-        port: ,
+        //port: ,
         protocol: 'https',
         colors: 'dynamic',
         theme: 'dynamic',
