@@ -6,4 +6,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: https://streaming.mbahnunungonline.net/sitemap.xml
+Sitemap: https://live.mbahnunungonline.net/sitemap.xml
