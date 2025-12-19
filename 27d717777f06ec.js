@@ -6,11 +6,11 @@
 // =============================================== //
 
     $.kast({
-        host: 'rbtfm.cloudns.info',
-        port: 9560,
+        host: 'sv.stri.my.id',
+        port: 3310,
         protocol: 'http',
         version: 1,
-        directStreamURL: 'https://sv.stri.my.id/radio/8360/rbtfm',
+        directStreamURL: 'https://sv.stri.my.id:3350/rbtfm',
         defaultArtwork: ['https://raw.githubusercontent.com/warningfm/v3/master/images/1d205655ef29e14a8255c89fe2383a41.jpg'],
         statusBar: false,
         startTemplate: 'maximized',
