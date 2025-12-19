@@ -29,5 +29,5 @@ var settings = {
     'next_song': true,
 
     // Path to default cover art when none are found
-    'default_cover_art': 'https://pbs.twimg.com/profile_images/1363910175703199751/Yw_biOmN_400x400.jpg',
+    'default_cover_art': 'https://cdn4.mbahnunungonline.net/img/wDI5YzU.png',
 };
