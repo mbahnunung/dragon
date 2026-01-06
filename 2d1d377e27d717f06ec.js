@@ -123,10 +123,10 @@ $('#top-7').click(function () {
 // Handle: Example 8 click function
 $('#top-8').click(function () {
     $.kast({
-        host: 'streaming.girifm.com',
-        port: 8010,
+        host: 'sv3.stri.my.id',
+        port: 5423,
         version: 2,
-        directStreamURL: 'https://azuracast.suzananet.com/radio/8010/radio',
+        directStreamURL: 'https://a7.alhastream.com:5423/radio',
         irrelevantWords: false,
         colors: 'dynamic',
         theme: 'dynamic',
