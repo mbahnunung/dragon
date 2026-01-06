@@ -61,10 +61,10 @@ $('#top-3').click(function () {
 // Handle: Example 4 click function
 $('#top-4').click(function () {
     $.kast({
-        host: 'ssg.streamingmurah.com',
-        port: 9560,
+        host: 'sv.stri.my.id',
+        port: 3310,
         protocol: 'https',
-        //directStreamURL: 'https://ssg.streamingmurah.com:9560/rbtfm',
+        //directStreamURL: 'https://sv.stri.my.id/listen/radio_bintang_tenggara_2.0/rbtfm',
         defaultArtwork: ['https://warningfm.github.io/v3/images/1d205655ef29e14a8255c89fe2383a41.jpg'],
         colors: 'dynamic',
         theme: 'dark',
